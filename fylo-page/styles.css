@@ -69,6 +69,7 @@ main{
 
 	
 }
+
 #top-menu li{
 	position: relative;
 	right: 4vw;
@@ -82,6 +83,7 @@ main{
 }
 .top-menu-button{
 	text-decoration: none;
+	color: var(--desaturated-blue);
 }
 #first-section{
 	position: relative;
