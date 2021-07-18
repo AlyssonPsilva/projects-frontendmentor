@@ -1,0 +1,209 @@
+body{			/* general configurations*/
+	
+	padding: 0;
+	box-sizing: border-box;
+	background-color: hsl(204, 43%, 93%);
+	width: 100vw;
+	height: 100%;
+	font-family: 'Karla', sans-serif;
+	font-size: auto;
+	
+}
+
+
+#grid-container{		/* main grid*/
+	position: relative;
+	top: 10vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	height: 200px;
+	width: 100%;
+	margin: auto;
+	margin-top: auto;
+	grid-template-areas: "joinus"
+						 "singupsgrid"
+						 "whyussgrid";
+
+	
+	position: relative;
+	
+
+
+}
+#join-us{			/* join us white box*/
+	background-color: white;
+	position: relative;
+	width: 90%;
+	height: 200px;
+	padding: 30px;
+	
+	border-radius: 5px;
+	
+	grid-area: joinus;
+	
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+
+	
+
+	
+
+	
+}
+#join-us > p{
+	color: hsl(179, 62%, 43%);
+	font-weight:400;
+	font-size: 16px;
+}
+#join-us > h1{
+	font-weight: 700;
+	color: hsl(179, 62%, 43%);
+	font-size: 16px;
+}
+#join-us > h2{
+	font-weight: 700;
+	color:hsl(71, 73%, 54%);
+	font-size: 16px;
+}
+#info{
+	display: flex;
+	flex-direction: column;
+
+
+
+	
+
+
+}
+#sign-up-box{
+	background-color:#29B4B0;
+	padding: 30px;
+	padding-right:0; 
+	grid-area: singupsgrid;
+	position: relative;
+	border-bottom-left-radius: 5px; 
+	width: 100%;
+	
+
+
+}
+#sign-up-box > h2{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	
+
+	
+
+}
+
+
+
+
+
+#why-us > h2{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	position: relative;
+	
+
+}
+#why-us p{
+	width: 50%;
+}
+#why-us{
+	background-color: #4ABEBD;
+	grid-area: whyussgrid;
+	position: relative;
+	width: 100%;
+	border-bottom-right-radius: 5px; 
+	padding-right: 50px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+
+
+	
+
+}
+#specialtext{
+	color: white;
+	font-size: 30px;
+	font-weight: 800;
+	display: inline;
+}
+#subtext{
+	font-size: 15px;
+	color: white;
+	font-weight: 50;
+	
+	display: inline;
+}
+#advertsing{
+	color: hsl(204, 43%, 93%)
+
+}
+#description{
+	color: hsl(204, 43%, 93%);
+	font-size: 16px;
+
+}
+#sign-up-button{
+	background-color: #BFDF32;
+	border:none;
+	color: white;
+	width: 300px;
+	height: 50px;
+	border-radius: 5px;
+	margin: auto;
+	position: relative;
+
+}
+#sign-up-button:hover{
+	box-shadow: 0 5px 10px rgba(0,0,0,.3);
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+@media (min-width: 1200px){
+body{
+	font-size: auto;
+}
+#grid-container{
+		width: 500px;
+
+	}
+#join-us{
+	width: 500px;
+	padding-bottom: 0;
+}
+#info{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: "sinupgrid whyusgrid"
+}
+#sign-up-box{
+	width: 250px;
+	position: relative;
+	grid-area: sinupgrid;
+}
+#why-us{
+	width: 170px;
+	position: relative;
+	grid-area: whyusgrid;
+	padding-right: 80px;
+
+}
+#why-us p{
+	font-size: 16px;
+	width: auto;
+}
+#sign-up-button{
+	width: 200px;
+
+}
+}
+
