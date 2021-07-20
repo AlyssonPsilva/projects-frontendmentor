@@ -43,11 +43,14 @@ body{
 	text-align: center;
 	font-weight: 400;
 	color: var(--dark-grayish-magenta);
+	margin-right: 10px;
+	margin-left: 10px;
 }
 #ratings-section{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 30px;
 	
 }
 .rating-box{
@@ -63,4 +66,51 @@ body{
 	color: var(--very-dark-magenta);
 	font-weight: 700;
 	font-size: small;
+}
+#testimonial-section{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.testimonial-card{
+	width: 80%;
+	background-color: var(--very-dark-magenta);
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-self: center;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+.card-top{
+	display: flex;
+	margin-bottom: 10px;
+}
+.user-photo{
+	width: 40px;
+	border-radius: 50%;
+	height: auto;
+	margin-right: 20px;
+}
+.user-name{
+	color: white;
+	margin: 0;
+	font-size: small;
+	margin-bottom: 5px;
+}
+.user-status{
+	color: var(--dark-grayish-magenta);
+	margin: 0;
+	font-size: small;
+}
+.user-informations{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 5px;
+}
+.testimonial-text{
+	color: white;
+	font-size: small;
+	color: var(--light-grayish-magenta);
 }
