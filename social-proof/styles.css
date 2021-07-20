@@ -117,3 +117,82 @@ body{
 	font-size: small;
 	color: var(--light-grayish-magenta);
 }
+@media screen and (min-width: 1024px){
+	#page-conatainer{
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+	}
+	#desktop-top{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin-bottom: 50px;
+
+
+
+
+	}
+	#first-section{
+		width: 50%;
+		align-items: center;
+		background-image: url("./images/bg-pattern-top-desktop.svg");
+		background-size: cover;
+		padding: 50px 0 0 0px;
+		justify-content: center;
+	}
+	#main-tittle{
+		align-self: initial;
+		text-align:initial;
+		max-width: 300px;
+		font-size: xx-large;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	#first-section p{
+		text-align: left;
+		align-self: initial;
+		margin: 0;
+		font-size: medium;
+		position: relative;
+		left: 3em;
+		max-width: 400px;
+	}
+	#ratings-section{
+		width: 50%;
+		padding-top: 100px;
+		justify-content: center;
+		align-items: center;
+	}
+	.rating-box{
+		width: 70%;
+		text-align: initial;
+		align-self: initial;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		position: relative;
+
+		
+
+	}
+	.stars-container{
+		margin-right: 20px;
+		
+
+	}
+	.rating-box:first-of-type{
+		right: 10%;
+		
+	}
+	.rating-box:nth-of-type(2){
+		right: 5%;
+	}
+	.rating-box:nth-of-type(2){
+		right: 
+	}
+	
+
+
+}
