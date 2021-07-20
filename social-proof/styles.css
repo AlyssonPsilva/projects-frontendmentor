@@ -45,6 +45,7 @@ body{
 	color: var(--dark-grayish-magenta);
 	margin-right: 10px;
 	margin-left: 10px;
+	max-width: 500px;
 }
 #ratings-section{
 	width: 100%;
@@ -61,6 +62,7 @@ body{
 	padding: 15px;
 	margin-bottom: 15px;
 	border-radius: 10px;
+	max-width: 460px;
 }
 .rating-box p{
 	color: var(--very-dark-magenta);
@@ -81,6 +83,7 @@ body{
 	align-self: center;
 	margin-bottom: 15px;
 	border-radius: 10px;
+	max-width: 450px;
 }
 .card-top{
 	display: flex;
