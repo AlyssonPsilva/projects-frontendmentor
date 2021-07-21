@@ -127,7 +127,8 @@ body{
 		display: flex;
 		flex-direction: row;
 		width: 100%;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
+		
 
 
 
@@ -164,6 +165,7 @@ body{
 		padding-top: 100px;
 		justify-content: center;
 		align-items: center;
+
 	}
 	.rating-box{
 		width: 70%;
@@ -189,10 +191,35 @@ body{
 	.rating-box:nth-of-type(2){
 		right: 5%;
 	}
-	.rating-box:nth-of-type(2){
-		right: 
+	#testimonial-section{
+		flex-direction: row;
+		justify-content: center;
+		background-image: url("./images/bg-pattern-bottom-desktop.svg");
+		background-size: cover;
+		height: 50vh;
 	}
-	
+	.testimonial-card{
+		max-width: 20vw;
+		margin-right: 20px;
+		height: auto;
+		position: relative;
+	}
+	.testimonial-card:first-of-type{
+		bottom: 10%;
+	}
+	.testimonial-card:nth-of-type(2){
+		bottom: 5%;
+	}
+	.testimonial-text{
+		font-size: medium;
 
 
+	}
+
+
+}
+@media screen and (min-width: 2000px){
+	.testimonial-card{
+		max-width: 15vw;
+	}
 }
