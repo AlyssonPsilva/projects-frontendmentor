@@ -22,32 +22,41 @@ body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	background-color: var(--light-grayish-violet);
+	background-color: var(--white);
 }
 #page-container{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0;
 }
 #first-bg-curve{
 	background: rgb(191,64,255);
 	background: linear-gradient(156deg, rgba(191,64,255,1) 0%, rgba(139,74,209,1) 83%);
 	width: 30vw;
-	height: 90vh;
-	border-bottom-left-radius: 150px;
-	border-bottom-right-radius:200px;
+	height: 93vh;
+	border-bottom-left-radius:130px;
+	border-bottom-right-radius:250px;
+	margin: 0;
+
 
 }
 #cellphone{
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	width: 200px;
-	height: 450px;
-	right: 3em;
+	top: 5em;
+	width: 250px;
+	right: 4em;
 	border: 10px solid var(--white);
-	border-top-left-radius:20px ;
-	border-top-right-radius:20px ;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
+
 	
 
 }
@@ -64,12 +73,13 @@ body{
 #cellphone-top{
 	background-image: linear-gradient(to right, var(--light-violet), var(--light-magenta));
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	height: 50px;
-	border-top-left-radius:10px;
-	border-top-right-radius:10px;
-	padding-top:15px ;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	padding-top:20px ;
+	padding-bottom: 10px;
+	width: 100%;
 }
 #avatar{
 	width: 30px;
@@ -93,15 +103,92 @@ body{
 #cellphone-top i{
 	color: white;
 }
-#icon-arrow{
+#icon-arrow-top{
 	margin-right: 10px;
 	margin-left: 5px;
 }
 #icon-menu-end{
-	position: relative;
-	left: 40px;
-	font-size: 12px;
+	align-self: flex-end;
 }
 #cellphone-body{
-	background-color: var(--grayish-blue);
+	background-color: var(--light-grayish-violet);
+}
+.cellphone-chat{
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#cellphone-chat-right{
+	display: flex;
+	justify-content: flex-end;
+}
+#chat-right-text-container{
+	display: flex;
+	flex-direction: column;
+}
+.cellphone-message{
+	font-size: 9px;
+	max-width: 15em;
+	padding: 5px;
+
+}
+.left{
+	color: var(--moderate-violet);
+	background-color: #EDE4F5;
+	border-radius: 10px;
+	
+}
+.right{
+	background-color: white;
+	color: var(--desaturated-dark-violet);
+	border-radius: 10px;
+	margin: 0;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+#cellphone-chat-pictures{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+	
+
+}
+.message-dog-picture{
+	width: 40px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.cellphone-chat-notification{
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(to right, var(--light-magenta), var(--light-violet));
+	max-width: 10em;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 5px;
+	margin-left: 10px;
+
+
+}
+.cellphone-chat-notification i{
+	color: var(--pale-violet);
+	margin-right: 10px;
+}
+.message-price-notification{
+	font-size: 9px;
+	color: var(--pale-violet);
+	font-weight: 700;
+
+	
+
+
+
+}
+
+.price{
+	align-self: flex-end;
+	color: white;
+	font-size: 10px;
+	margin-left: 2em;
 }
