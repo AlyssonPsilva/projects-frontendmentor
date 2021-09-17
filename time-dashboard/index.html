@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
     <title>Time Tracking Dashboard</title>
 </head>
 <body>
     <div id="page-container">
         <main>
             <section id="dashboard">
-                <div id="dashoboard-menu">
+                <div id="dashboard-menu">
                     <div id="dashboard-profile">
-                        <img src="./images/image-jeremy.png" alt="user-photo">
+                        <img id="user-photo" src="./images/image-jeremy.png" alt="user-photo">
                         <p>Report for</p>
                         <h1>Jeremy Robson</h1>
                         
                     </div>
                     <nav id="dashboard-nav">
-                        <li class="nav-link">Daily</li>
-                        <li class="nav-link">Weekly</li>
-                        <li class="nav-link">Monthly</li>
+                        <ul>
+                        <li><a href="#" class="nav-link">Daily</a></li>
+                        <li><a href="#" class="nav-link">Weekly</a></li>
+                        <li><a href="#" class="nav-link">Monthly</a></li>
+                    </ul>
                     </nav>
+        
+                </div>
                     <div class="dashboard-card work">
                         <div id="card-header">
                             <p>Work</p>
@@ -74,6 +81,7 @@
                             <img src="./images/icon-ellipsis.svg">
 
                         </div>
+
                         <div id="card-body">
                             <p class="card-time">32hrs</p>
                             <p class="previous">36</p>
@@ -89,8 +97,7 @@
                             <p class="card-time">32hrs</p>
                             <p class="previous">36</p>
                         </div>
-                    </div>
-                </div>
+
             </section>
         </main>
     </div>   
