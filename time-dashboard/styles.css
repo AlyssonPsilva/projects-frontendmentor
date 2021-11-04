@@ -43,6 +43,8 @@ body{
 	justify-content: center;
 
 
+
+
 }
 #menu{
 	grid-column: 1/1;
@@ -244,6 +246,14 @@ body{
 }
 .active-link{
 	color: white;
+}
+#credits p{
+	margin-top: 100px;
+	color: var(--pale-blue);
+}
+#credits a{
+	text-decoration: none;
+	color: var(--blue);
 }
 /*------- mobile media queries------------*/
 
