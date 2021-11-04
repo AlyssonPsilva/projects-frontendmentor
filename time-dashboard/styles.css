@@ -347,6 +347,10 @@ body{
 	.previous{
 		font-size: small;
 	}
+	#credits p{
+		font-size: small;
+		text-align: center;
+	}
 
 }
 
